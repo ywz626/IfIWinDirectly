@@ -41,8 +41,6 @@
 
 ## 本地构建
 
-如果你想从源码构建（修改/二次开发）：
-
 1. 安装依赖
    - [.NET SDK 9.0+](https://dotnet.microsoft.com/download)
    - [Godot 4.5.1 Mono 版](https://godotengine.org/download/archive/4.5.1-stable/)
