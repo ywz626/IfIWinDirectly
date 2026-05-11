@@ -27,6 +27,10 @@ obj/
 *.userprefs
 *.sln.DotSettings.user
 
+# 本地构建配置（包含 Steam/Godot 安装路径等机器相关变量）
+# 复制 Local.props.example 为 Local.props 后填入本机路径
+Local.props
+
 # Visual Studio 本地缓存
 .vs/
 

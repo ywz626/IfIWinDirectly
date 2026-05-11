@@ -1,0 +1,27 @@
+<Project>
+    <!--
+        本地构建配置模板
+
+        使用方法：
+        1. 把本文件复制为 Local.props（同目录下）
+        2. 修改下面的路径为你机器上的实际路径
+        3. Local.props 已加入 .gitignore，不会被提交
+
+        也可以直接设置环境变量 STS2_DIR / GODOT_EXE，效果等价。
+    -->
+    <PropertyGroup>
+        <!-- Slay the Spire 2 游戏根目录 -->
+        <!-- 默认 Steam 路径示例：C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2 -->
+        <Sts2Dir>C:\Program Files (x86)\Steam\steamapps\common\Slay the Spire 2</Sts2Dir>
+
+        <!-- Godot 4.5.1 Mono 可执行文件路径（用于 Publish 时导出 .pck） -->
+        <GodotExe>C:\Godot\Godot_v4.5.1-stable_mono_win64.exe</GodotExe>
+
+        <!--
+            可选项：游戏数据目录，默认自动推导为 $(Sts2Dir)\data_sts2_windows_x86_64
+            Linux 用户改为 data_sts2_linux_x86_64
+            macOS 用户改为 Slay the Spire 2.app\Contents\Resources（具体看安装版本）
+        -->
+        <!-- <Sts2DataDir>$(Sts2Dir)\data_sts2_windows_x86_64</Sts2DataDir> -->
+    </PropertyGroup>
+</Project>
