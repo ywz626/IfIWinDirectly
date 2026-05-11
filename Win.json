@@ -1,0 +1,13 @@
+{
+  "id": "Win",
+  "name": "假如我直接赢",
+  "author": "ywz626",
+  "description": "开局一张超强单卡，假如我直接赢",
+  "version": "0.1.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    "BaseLib"
+  ],
+  "affects_gameplay": true
+}

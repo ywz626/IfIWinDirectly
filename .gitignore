@@ -1,0 +1,87 @@
+# ============================================================
+# Godot 4 (C# / Mono)
+# ============================================================
+# Godot 构建缓存与中间产物，由编辑器自动生成
+.godot/
+
+# 平台导出目录（如需提交模板请单独处理）
+/android/
+/ios/
+
+# 导出签名、证书、密码等凭据：永远不要提交
+export_credentials.cfg
+
+# Godot 3.x 残留缓存
+.import/
+
+# ============================================================
+# .NET / C#
+# ============================================================
+# 编译产物
+bin/
+obj/
+
+# IDE 用户设置（不可共享）
+*.user
+*.suo
+*.userprefs
+*.sln.DotSettings.user
+
+# Visual Studio 本地缓存
+.vs/
+
+# 调试符号与崩溃日志
+*.pdb
+mono_crash.*
+*.log
+
+# NuGet 包缓存
+packages/
+*.nupkg
+
+# ============================================================
+# JetBrains Rider / IntelliJ
+# 保留可共享的项目设置，忽略个人工作区与自动生成文件
+# ============================================================
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/shelf/
+.idea/**/httpRequests/
+.idea/**/dataSources/
+.idea/**/dataSources.local.xml
+.idea/**/dataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+.idea/**/contentModel.xml
+.idea/**/modules.xml
+.idea/**/*.iml
+.idea/**/projectSettingsUpdater.xml
+.idea/**/claudeCodeTabState.xml
+
+# ============================================================
+# 操作系统生成文件
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ============================================================
+# 编辑器临时文件
+# ============================================================
+*.swp
+*.swo
+*~
+*.bak
+*.orig
+
+# ============================================================
+# 环境变量与本地秘钥
+# ============================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key

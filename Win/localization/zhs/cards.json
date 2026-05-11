@@ -1,0 +1,4 @@
+{
+  "WIN-IF_I_WIN_DIRECTLY.title": "假如我直接赢",
+  "WIN-IF_I_WIN_DIRECTLY.description": "每回合开始时，获得{Energy:energyIcons()}，抽{Cards:diff()}张牌。"
+}
