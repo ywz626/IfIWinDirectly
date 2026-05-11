@@ -40,25 +40,17 @@ packages/
 *.nupkg
 
 # ============================================================
-# JetBrains Rider / IntelliJ
-# 保留可共享的项目设置，忽略个人工作区与自动生成文件
+# JetBrains Rider / IntelliJ / Visual Studio Code
+# 一律忽略 IDE 个人配置，开源仓库不放 IDE 文件
 # ============================================================
-.idea/**/workspace.xml
-.idea/**/tasks.xml
-.idea/**/usage.statistics.xml
-.idea/**/shelf/
-.idea/**/httpRequests/
-.idea/**/dataSources/
-.idea/**/dataSources.local.xml
-.idea/**/dataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
-.idea/**/dbnavigator.xml
-.idea/**/contentModel.xml
-.idea/**/modules.xml
-.idea/**/*.iml
-.idea/**/projectSettingsUpdater.xml
-.idea/**/claudeCodeTabState.xml
+.idea/
+.vscode/
+
+# ============================================================
+# 开发过程中的本地草稿与设计文档
+# 单独保留在本地，不进入仓库
+# ============================================================
+docs/superpowers/
 
 # ============================================================
 # 操作系统生成文件
